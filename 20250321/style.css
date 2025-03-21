@@ -1,0 +1,36 @@
+h1{
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: 10px orchid;
+    padding: 15px ;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+
+div{
+ text-align: center;
+}
+   
+
+section{
+    border-bottom: 10px solid black;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+}
+body{
+   background-color: aquamarine;
+}
+
+/*span{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font: optional;
+    fonnt color: #000;
+}
