@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../task6_navttc"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "task7_navttc"
+	}
+}

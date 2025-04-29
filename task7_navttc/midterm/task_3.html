@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+          margin: auto;
+         
+          justify-content: center;
+          text-align: center;
+         
+          border: 1.5px solid rgb(8, 8, 224);
+          border-radius: 5%;
+          height: 500px;
+          width: 350px;
+          color: rgb(228, 10, 10);
+          padding: 5px;
+        }
+        .login {
+          display: flex;
+          flex-direction: column;
+         
+        }
+        body{
+          background-color: black;
+        }
+        .login input {
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          margin: 20px;
+          border: none;
+          border-bottom: 1px solid;
+          outline: none;
+          width: 80%;
+          
+        }
+      </style>
+</head>
+<body>
+    <br /><br /><br /><br /><br /><br /><br />
+    <div class="container">
+      <h1 style="font-size: 60px">LOG IN</h1>
+      <div class="login">
+        <input
+          type="email"
+          name="email"
+          id="e"
+          placeholder="Enter Your Email"
+          />
+          <input
+          type="password"
+          name="password"
+          id="p"
+          placeholder="Enter your password"
+          />
+      <hr/>
+      <a href="forget password">Forget your password</a>
+    <hr/>
+      </div>
+    </div>
+</body>
+</html>
